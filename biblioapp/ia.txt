@@ -1,0 +1,18 @@
+--etapa 1--
+prompt: analiza App.jsx e importa el array de libros.js, ya que necesito que se muestre solamente la información de los libros y elimines de paso todo lo referente a la pagina por defecto de react. Es sumamente importante que no quede rastro de aquellos datos en otros archivos, pero siempre manteniendo el cuidado de NO borrar código que corresponda al proyecto en el que trabajaremos. Solo elimina lo referente a la pagina react para que el código quede limpio y haz los cambios que pedí sobre el array. 
+
+
+resultado: cumplió con las instrucciones de manera eficiente
+
+utilidad: Muy útil.
+
+
+--etapa 2--
+prompt: utiliza LibroCard.jsx para que el componente reciba de libros.js por props el título del libro, editorial, anio, estado, resumen, autores. Muestra la información e manera ordenada y aplica estilos diferenciado según el estado: verde para "disponible", amarillo para "prestado" y gris para "reservado". Es sumamente importante que definas los tipos de las props con PropTypes y entrega valores por defecto para evitar errores cuando falte un dato.
+
+renderiza el texto siempre como contenido jsx normal. No uses dangerouslySetInnerHTML. Por ultimo, no dejes credenciales, claves ni datos sensibles escritos en el código.
+
+resultado: el objetivo fue logrado, cumple bien las indicaciones.
+
+utilidad: Útil
+
