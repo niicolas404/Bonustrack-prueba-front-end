@@ -12,7 +12,11 @@ prompt: utiliza LibroCard.jsx para que el componente reciba de libros.js por pro
 
 renderiza el texto siempre como contenido jsx normal. No uses dangerouslySetInnerHTML. Por ultimo, no dejes credenciales, claves ni datos sensibles escritos en el código.
 
-resultado: el objetivo fue logrado, cumple bien las indicaciones.
+prompt 2: Veo que dejaste a #file:LibroCrad.jsx sin utilidad a pesar de ser un componente que actua para que su función funcione de manera independiente. ¿Puedes hacer que el componente tenga una funcion real dentro del proyecto como corresponde?
+
+resultado: el objetivo fue logrado, pero dejó a librocard sin ajustes, por lo que se opta por otro prompt para poder arreglarlo.
+
+
 
 utilidad: Útil
 
@@ -43,3 +47,12 @@ prompt: Destaquemos novedades. Resalta visualmente los elementos con esNovedad: 
 resultado: la novedad de "nuevo" cumple, adicionalmente se genera un contador donde se ven cuantos libros son nuevos.
 
 utilidad: muy útil.
+
+
+
+--sección de mejoras--
+prompt: vamos a hacer una mejora de estilos css. usa app.css para mejorar los colores de la pagina y la legibilidad de las letras. Quiero letras en negritas con fondos blancos. El color de la pagina de fondo puede ser de color beige claro para otorgar una apariencia minimalista. Los botones de "nuevo" deben aparecer en rojo. el estado de cada libro puede conservar su color actual. Haz que el encabezado se vea atractivo y borrra el pararfo de "aqupi se muestra solo la informacióm de los libros desde el array de datos" lo cual aparece en la paghina de subtitulo y lo cual no debería.
+
+resultado. se pudo conseguir que los componentes funcionen por separado de manera eficiente. Adicionalmente se hace una mejora de estilo para mayor legibilidad.
+
+utildiad. muy util.

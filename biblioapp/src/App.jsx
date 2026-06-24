@@ -41,9 +41,6 @@ function App() {
         <div>
           <p className="app__eyebrow">Biblioteca</p>
           <h1>Listado de libros</h1>
-          <p className="app__subtitle">
-            Aquí se muestra solo la información de los libros desde el array de datos.
-          </p>
         </div>
       </header>
 

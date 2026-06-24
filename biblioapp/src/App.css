@@ -2,25 +2,40 @@
   padding: 40px 32px;
   max-width: 1100px;
   margin: 0 auto;
+  min-height: 100vh;
+  background: #f5efe5;
+  color: #1f2937;
 }
 
 .app__header {
   text-align: left;
   margin-bottom: 32px;
+  padding: 28px 32px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 .app__eyebrow {
-  margin: 0 0 8px;
-  font-size: 14px;
-  letter-spacing: 0.16em;
+  margin: 0 0 10px;
+  font-size: 13px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #9e5ee8;
+  font-weight: 700;
+}
+
+.app__header h1 {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.05;
+  font-weight: 800;
+  color: #111827;
 }
 
 .app__subtitle {
-  margin: 12px 0 0;
-  max-width: 680px;
-  color: var(--text);
+  display: none;
 }
 
 .book-list {
@@ -31,17 +46,17 @@
 
 .book-card {
   position: relative;
-  padding: 24px;
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  box-shadow: rgba(15, 23, 42, 0.04) 0 10px 30px -12px;
-  background: #fff;
+  padding: 26px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 22px;
+  box-shadow: rgba(15, 23, 42, 0.06) 0 18px 35px -18px;
+  background: #ffffff;
   text-align: left;
 }
 
 .book-card--new {
-  border-color: #7c3aed;
-  box-shadow: rgba(124, 58, 237, 0.16) 0 10px 30px -12px;
+  border-color: rgba(239, 68, 68, 0.65);
+  box-shadow: rgba(239, 68, 68, 0.12) 0 18px 35px -18px;
   border-top-width: 4px;
 }
 
@@ -54,16 +69,17 @@
 }
 
 .book-card__top h2 {
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
-  color: var(--text-h);
+  color: #111827;
+  font-weight: 800;
 }
 
 .book-card__status {
-  padding: 6px 12px;
+  padding: 8px 14px;
   border-radius: 999px;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   white-space: nowrap;
@@ -113,9 +129,9 @@
   top: 18px;
   right: 18px;
   margin-top: 0;
-  background: #7c3aed;
+  background: #dc2626;
   color: #fff;
-  box-shadow: 0 10px 20px rgba(124, 58, 237, 0.15);
+  box-shadow: 0 12px 22px rgba(220, 38, 38, 0.2);
 }
 
 .app__meta {
@@ -154,12 +170,13 @@
 
 .app__search {
   width: 100%;
-  padding: 12px 14px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: #fff;
-  color: var(--text-h);
+  padding: 14px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 14px;
+  background: #ffffff;
+  color: #111827;
   font-size: 16px;
+  font-weight: 700;
 }
 
 .filtro-estado {
@@ -169,19 +186,20 @@
 }
 
 .filtro-estado__item {
-  border: 1px solid var(--border);
-  background: #fff;
-  color: var(--text-h);
-  padding: 10px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: #ffffff;
+  color: #111827;
+  padding: 12px 18px;
   border-radius: 999px;
   cursor: pointer;
+  font-weight: 700;
   transition: transform 0.2s, background 0.2s, border-color 0.2s;
 }
 
 .filtro-estado__item:hover,
 .filtro-estado__item--active {
-  border-color: var(--accent);
-  background: rgba(170, 59, 255, 0.12);
+  border-color: #9e5ee8;
+  background: rgba(158, 94, 232, 0.12);
 }
 
 .app__empty {
