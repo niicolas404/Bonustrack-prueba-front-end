@@ -24,3 +24,16 @@ prompt: Necesito que ListaLibros.jsx reciba el array de libros por props. Este a
 resultado: el resultado cumplió con lo estipulado en el prompt
 
 utilidad: fue util
+
+
+--etapa 4--
+prompt: vamos a aplicar un estado y filtro seguro. Necesito que crees botones o un selector para filtrar por el estado: "todos", "disponible", "prestado", reservado", desde #file:FiltroEstado.jsx. En #file:App.jsx usa "useState" para guardar el filtro seleccionado y un campo de búsqueda por titulo. Aplica ambos filtros sobre el array antes de pasarlo a #file:ListaLibros.jsx y haz que se renderice de manera condicional para mostrar el mensaje "no hay libros que coincidan" cuando el resultado quede vacío,
+
+el campo de búsqueda debe ser un componente controlado (su valor vive en el estado de la react)
+por ultimo valida y normaliza el texto de búsqueda antes de usarlo para no confiar ciegamente en la entrada de usuario.
+
+resultado: el resultado cumplió, el filtro de búsqueda funciona como corresponde.
+
+utilidad: muy util.
+
+
