@@ -33,6 +33,8 @@ function App() {
     return cumpleFiltroEstado && cumpleBusqueda
   })
 
+  const novedadesCount = librosFiltrados.filter((libro) => libro.esNovedad).length
+
   return (
     <main className="app">
       <header className="app__header">
@@ -58,6 +60,12 @@ function App() {
         </label>
 
         <FiltroEstado selected={estadoFiltro} onChange={setEstadoFiltro} />
+      </section>
+
+      <section className="app__meta">
+        <p className="app__counter">
+          <strong>{novedadesCount}</strong> {novedadesCount === 1 ? 'libro es novedad' : 'libros son novedad'}
+        </p>
       </section>
 
       {librosFiltrados.length > 0 ? (

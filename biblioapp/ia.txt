@@ -37,3 +37,9 @@ resultado: el resultado cumplió, el filtro de búsqueda funciona como correspon
 utilidad: muy util.
 
 
+--etapa 5--
+prompt: Destaquemos novedades. Resalta visualmente los elementos con esNovedad: true (ejemplo: una etiqueta "nuevo" o un borde distinto), además agrega un contador que muestre cuántos libros son novedad.
+
+resultado: la novedad de "nuevo" cumple, adicionalmente se genera un contador donde se ven cuantos libros son nuevos.
+
+utilidad: muy útil.

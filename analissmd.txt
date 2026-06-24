@@ -1,0 +1,17 @@
+ELEMENTO react
+
+Componente: 
+
+-usé ListaLibros para representar visualmente cada libro. Esto es adecuado especialmente por que cada tarjeta se vuelve una unidad independiente. Además permite mostrar la información de un libro sin repetir estructura y hace que el codigo sea más legible y facil de manejar.
+-también se usa App.jsx para recibir el array de libros y renderizar la tarjeta por cada elemento. Esto adecuado por que encapsula la lógica de listado. Aparte separa la respondabilidad de "mostrar la colección" de la logica de la pagina principal. Y principalmente mantiene el componente más "limpio", lo que aumenta su escalabilidad.
+
+Props:
+
+-Los props se usaron para pasar los datos de un componente padre a uno hijo. Por ejemplo, en ListaLibros el componente recibe:"libros" y luego se lo pasa a "libroCard", mediante props como: titulo, autores, editorial, anio, resumen, esNovedad. Son adecuados porque permiten hacer que un componente hijo reciba información desde afuera sin depender de datos internos.
+-se usó useState en app.jsx para guardar el filtro de estado y el filtro de busqueda.
+
+-en ListaLibros se recorre el arreglo de libros con .map(). esto es adecuado porque el array de los libros presenta una coleccion de elementos del mismo tipo. React necesita renderizar uno por uno.
+-en #app.jsx se usa renderizado condicional para mostrar la lista de los libros si noy hay resultado. Es adecuado porque debe responder a diferentes situaciones como: "no hay resultados:mostrar catálogo", o "no hay resultados: mostrar aviso".
+
+La ventaja que tiene dividir el catalogo por componente que el cdigo sea escalable para futuras actualizaciones.
+

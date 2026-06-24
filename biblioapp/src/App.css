@@ -30,12 +30,19 @@
 }
 
 .book-card {
+  position: relative;
   padding: 24px;
   border: 1px solid var(--border);
   border-radius: 18px;
   box-shadow: rgba(15, 23, 42, 0.04) 0 10px 30px -12px;
   background: #fff;
   text-align: left;
+}
+
+.book-card--new {
+  border-color: #7c3aed;
+  box-shadow: rgba(124, 58, 237, 0.16) 0 10px 30px -12px;
+  border-top-width: 4px;
 }
 
 .book-card__top {
@@ -99,6 +106,26 @@
   color: #7c3aed;
   font-size: 13px;
   font-weight: 700;
+}
+
+.book-card__badge--nuevo {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  margin-top: 0;
+  background: #7c3aed;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(124, 58, 237, 0.15);
+}
+
+.app__meta {
+  margin-bottom: 20px;
+}
+
+.app__counter {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text);
 }
 
 @media (max-width: 860px) {
