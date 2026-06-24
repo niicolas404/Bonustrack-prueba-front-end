@@ -16,3 +16,11 @@ resultado: el objetivo fue logrado, cumple bien las indicaciones.
 
 utilidad: Útil
 
+
+
+--etapa 3--
+prompt: Necesito que ListaLibros.jsx reciba el array de libros por props. Este array debe recorrer con .map() y renderizar un libroCard por cada libro. También se debes asignar la prop key usando el id de cada elemento (No uses el índice del array) por ultimo, en la App.jsx , renderiza #file:ListaLibros.jsx pasándole los datos importados.
+
+resultado: el resultado cumplió con lo estipulado en el prompt
+
+utilidad: fue util
